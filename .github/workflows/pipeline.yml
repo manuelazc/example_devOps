@@ -1,0 +1,6 @@
+name: hello word
+on: [push]
+jobs: 
+  hello-word:
+    steps:
+      - run: echo "Hello world"
